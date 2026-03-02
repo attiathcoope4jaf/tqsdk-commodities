@@ -1,2 +1,21 @@
 # tqsdk-commodities
-基于 TqSdk 的商品期货专项策略：铜、螺纹钢、豆粕、原油等品种
+
+> 基于 **TqSdk** 的商品期货专项策略集合，持续更新中。
+
+## 项目简介
+
+本仓库专注于**商品期货专项策略**，所有策略使用 [天勤量化 TqSdk](https://github.com/shinnytech/tqsdk-python) 实现。
+
+## 策略列表
+
+（持续更新中...）
+
+## 环境要求
+
+```bash
+pip install tqsdk numpy pandas
+```
+
+---
+
+持续更新中，欢迎 Star ⭐
