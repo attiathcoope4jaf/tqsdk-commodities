@@ -29,6 +29,8 @@
 | 16 | 棉花期货双均线交叉策略 | 均线交叉 | CZCE.cf | [16_cf_ma_crossover.py](strategies/16_cf_ma_crossover.py) |
 | 17 | 铁矿石趋势布林策略 | 趋势跟踪 | DCE.i | [17_i_boll_trend.py](strategies/17_i_boll_trend.py) |
 | 18 | 橡胶RSI超买超卖策略 | RSI策略 | SHFE.ru | [18_ru_rsi_strategy.py](strategies/18_ru_rsi_strategy.py) |
+| 19 | 螺纹钢-热卷跨品种对冲策略 | 跨品种套利 | SHFE.rb + SHFE.hc | [19_rb_hc_spread.py](strategies/19_rb_hc_spread.py) |
+| 20 | 橡胶期货多因子量化策略 | 多因子策略 | SHFE.ru | [20_ru_multi_factor.py](strategies/20_ru_multi_factor.py) |
 
 ## 策略分类
 
@@ -46,6 +48,9 @@
 
 ### 🌊 多周期共振（Multi-Timeframe）
 结合多个时间周期的信号提高策略稳定性。
+
+### 🎯 多因子策略（Multi-Factor）
+综合多个技术指标因子进行量化决策。
 
 ## 环境要求
 
@@ -69,4 +74,4 @@ pip install tqsdk numpy pandas ta-lib
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-11*
+*更新时间：2026-03-13*
