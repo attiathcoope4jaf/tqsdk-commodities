@@ -31,6 +31,8 @@
 | 18 | 橡胶RSI超买超卖策略 | RSI策略 | SHFE.ru | [18_ru_rsi_strategy.py](strategies/18_ru_rsi_strategy.py) |
 | 19 | 螺纹钢-热卷跨品种对冲策略 | 跨品种套利 | SHFE.rb + SHFE.hc | [19_rb_hc_spread.py](strategies/19_rb_hc_spread.py) |
 | 20 | 橡胶期货多因子量化策略 | 多因子策略 | SHFE.ru | [20_ru_multi_factor.py](strategies/20_ru_multi_factor.py) |
+| 21 | 螺纹钢-铁矿石跨品种对冲策略 | 跨品种套利 | SHFE.rb + DCE.i | [21_rb_i_spread.py](strategies/21_rb_i_spread.py) |
+| 22 | 螺纹钢三因子趋势量化策略 | 多因子策略 | SHFE.rb | [22_rb_three_factor.py](strategies/22_rb_three_factor.py) |
 
 ## 策略分类
 
