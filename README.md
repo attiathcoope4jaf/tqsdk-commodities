@@ -33,6 +33,8 @@
 | 20 | 橡胶期货多因子量化策略 | 多因子策略 | SHFE.ru | [20_ru_multi_factor.py](strategies/20_ru_multi_factor.py) |
 | 21 | 螺纹钢-铁矿石跨品种对冲策略 | 跨品种套利 | SHFE.rb + DCE.i | [21_rb_i_spread.py](strategies/21_rb_i_spread.py) |
 | 22 | 螺纹钢三因子趋势量化策略 | 多因子策略 | SHFE.rb | [22_rb_three_factor.py](strategies/22_rb_three_factor.py) |
+| 23 | 螺纹钢多品种截面动量策略 | 截面动量 | 多品种 | [23_rb_cross_sectional_momentum.py](strategies/23_rb_cross_sectional_momentum.py) |
+| 24 | 金属板块跨品种对冲策略 | 跨品种套利 | SHFE.cu + SHFE.al + SHFE.zn + SHFE.ni | [24_metal_hedge.py](strategies/24_metal_hedge.py) |
 
 ## 策略分类
 
