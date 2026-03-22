@@ -35,6 +35,8 @@
 | 22 | 螺纹钢三因子趋势量化策略 | 多因子策略 | SHFE.rb | [22_rb_three_factor.py](strategies/22_rb_three_factor.py) |
 | 23 | 螺纹钢多品种截面动量策略 | 截面动量 | 多品种 | [23_rb_cross_sectional_momentum.py](strategies/23_rb_cross_sectional_momentum.py) |
 | 24 | 金属板块跨品种对冲策略 | 跨品种套利 | SHFE.cu + SHFE.al + SHFE.zn + SHFE.ni | [24_metal_hedge.py](strategies/24_metal_hedge.py) |
+| 25 | 螺纹钢-热卷价差均值回归策略 | 均值回归 | SHFE.rb + SHFE.hc | [25_rb_hc_mean_reversion.py](strategies/25_rb_hc_mean_reversion.py) |
+| 26 | 农产品板块多因子轮动策略 | 多因子策略 | DCE.m + DCE.c + CZCE.cf + CZCE.sr | [26_ag_sector_multi_factor.py](strategies/26_ag_sector_multi_factor.py) |
 
 ## 策略分类
 
@@ -78,4 +80,4 @@ pip install tqsdk numpy pandas ta-lib
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-13*
+*更新时间：2026-03-22*
