@@ -37,6 +37,8 @@
 | 24 | [24_metal_hedge.py](strategies/24_metal_hedge.py) | 金属板块跨品种对冲 | 铜/铝/锌/镍 | 金属板块协整套利 | 2026-03-17 |
 | 25 | [25_agri_multi_timeframe.py](strategies/25_agri_multi_timeframe.py) | 农产品跨周期动量策略 | 豆粕/玉米/棉花 | 日线+4H双周期共振动量 | 2026-03-18 |
 | 26 | [26_commodity_multi_factor.py](strategies/26_commodity_multi_factor.py) | 商品期货多因子截面策略 | 6品种综合 | 动量+低波+趋势三因子截面排序 | 2026-03-18 |
+| 27 | [27_cu_al_zn_calendar_spread.py](strategies/27_cu_al_zn_calendar_spread.py) | 有色金属跨期价差与Carry套利策略 | 铜/铝/锌 | 近远月价差z-score均值回归，三品种跨期套利 | 2026-03-23 |
+| 28 | [28_energy_agri_intermarket_hedge.py](strategies/28_energy_agri_intermarket_hedge.py) | 能源-农产品跨市场对冲策略 | 原油/燃料油/豆油/棕榈油 | 板块动量排名轮动+原油豆油替代逻辑对冲 | 2026-03-23 |
 
 ---
 
@@ -94,6 +96,7 @@ api = TqApi(
 
 | 日期 | 变更 |
 |------|------|
+| 2026-03-23 | 新增第27、28号策略：跨期价差Carry套利策略、能源农产品跨市场对冲策略 |
 | 2026-03-18 | 新增第25、26号策略：农产品跨周期动量策略、商品期货多因子截面策略 |
 | 2026-03-17 | 新增第23、24号策略：截面动量策略、金属板块对冲策略 |
 | 2026-03-16 | 新增第21、22号策略：螺纹铁矿套利、三因子策略 |
