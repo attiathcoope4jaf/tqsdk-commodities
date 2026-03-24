@@ -37,6 +37,10 @@
 | 24 | 金属板块跨品种对冲策略 | 跨品种套利 | SHFE.cu + SHFE.al + SHFE.zn + SHFE.ni | [24_metal_hedge.py](strategies/24_metal_hedge.py) |
 | 25 | 螺纹钢-热卷价差均值回归策略 | 均值回归 | SHFE.rb + SHFE.hc | [25_rb_hc_mean_reversion.py](strategies/25_rb_hc_mean_reversion.py) |
 | 26 | 农产品板块多因子轮动策略 | 多因子策略 | DCE.m + DCE.c + CZCE.cf + CZCE.sr | [26_ag_sector_multi_factor.py](strategies/26_ag_sector_multi_factor.py) |
+| 27 | 贵金属板块多因子策略 | 多因子策略 | SHFE.au + SHFE.ag | [26_commodity_multi_factor.py](strategies/26_commodity_multi_factor.py) |
+| 28 | 原油系跨品种对冲日历价差策略 | 跨品种套利 | SHFE.sc + SHFE.bu + DCE.p | [27_cu_al_zn_calendar_spread.py](strategies/27_cu_al_zn_calendar_spread.py) |
+| 29 | 农产品-软商品跨品种多因子轮动策略 | 多因子策略 | DCE.m + DCE.c + CZCE.SR + CZCE.CF | [29_agri_soft_multi_factor.py](strategies/29_agri_soft_multi_factor.py) |
+| 30 | 黑色系产业链统计套利与趋势增强策略 | 统计套利 | SHFE.rb + SHFE.hc + DCE.i | [30_black_metals_stat_arb.py](strategies/30_black_metals_stat_arb.py) |
 
 ## 策略分类
 
@@ -80,4 +84,4 @@ pip install tqsdk numpy pandas ta-lib
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-22*
+*更新时间：2026-03-24*
