@@ -39,6 +39,8 @@
 | 26 | [26_commodity_multi_factor.py](strategies/26_commodity_multi_factor.py) | 商品期货多因子截面策略 | 6品种综合 | 动量+低波+趋势三因子截面排序 | 2026-03-18 |
 | 27 | [27_cu_al_zn_calendar_spread.py](strategies/27_cu_al_zn_calendar_spread.py) | 有色金属跨期价差与Carry套利策略 | 铜/铝/锌 | 近远月价差z-score均值回归，三品种跨期套利 | 2026-03-23 |
 | 28 | [28_energy_agri_intermarket_hedge.py](strategies/28_energy_agri_intermarket_hedge.py) | 能源-农产品跨市场对冲策略 | 原油/燃料油/豆油/棕榈油 | 板块动量排名轮动+原油豆油替代逻辑对冲 | 2026-03-23 |
+| 31 | [31_chem_cross_momentum_term_structure.py](strategies/31_chem_cross_momentum_term_structure.py) | 化工系截面动量与期限结构择时策略 | 甲醇/塑料/PP/PTA/沥青 | 双维度截面打分：动量因子(60%)+期限结构因子(40%)，每周截面排名调仓 | 2026-03-25 |
+| 32 | [32_agri_climate_inventory_hedge.py](strategies/32_agri_climate_inventory_hedge.py) | 农产品气候因子与库存周期对冲策略 | 豆粕/豆油/玉米/棉花/白糖 | 三因子等权打分：动量+库存周期代理+布林宽度，每周截面排名调仓 | 2026-03-25 |
 
 ---
 
@@ -96,6 +98,7 @@ api = TqApi(
 
 | 日期 | 变更 |
 |------|------|
+| 2026-03-25 | 新增第31、32号策略：化工系截面动量期限结构策略、农产品气候因子库存周期对冲策略 |
 | 2026-03-23 | 新增第27、28号策略：跨期价差Carry套利策略、能源农产品跨市场对冲策略 |
 | 2026-03-18 | 新增第25、26号策略：农产品跨周期动量策略、商品期货多因子截面策略 |
 | 2026-03-17 | 新增第23、24号策略：截面动量策略、金属板块对冲策略 |
